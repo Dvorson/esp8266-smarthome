@@ -1,0 +1,58 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Smarthome start page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <br>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-success relayOn">Включить</button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-danger relayOff">Выключить</button>
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="form-group">
+                    <label for="exampleTextarea">Отправить сообщение</label>
+                    <textarea class="form-control wsinput" rows="3"></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-8 text-right">
+                <button type="submit" class="btn btn-primary submit">Отправить</button>
+            </div>    
+        </div>
+        <br>
+        <div class="row justify-content-center">
+            <div class="col-8">
+                <div class="card text-center">
+                  <div class="card-header">
+                    Сообщения
+                  </div>
+                  <div class="card-block messages">
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
