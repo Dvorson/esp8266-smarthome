@@ -13,7 +13,7 @@ AsyncWebSocket ws("/ws");
 AsyncEventSource events("/events");
 
 const char* ssid = "wifi_home";
-const char* password = "p99ux45r";
+const char* password = "********";
 const char * hostName = "esp-async";
 const char* http_username = "admin";
 const char* http_password = "admin";
